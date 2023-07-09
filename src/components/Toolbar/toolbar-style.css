@@ -1,0 +1,21 @@
+.toolbar {
+  padding: 20px 0;
+}
+
+.toolbar__list {
+  display: flex;
+  gap: 15px;
+}
+
+.toolbar__item_active,
+.toolbar__item {
+  user-select: none;
+  padding: 5px 10px;
+  border: 1px solid #000;
+}
+
+.toolbar__item_active {
+  background-color: #222;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.project__list {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+  padding: 20px;
+}
+
+.project__column {
+  width: calc((100% - 10px) / 3);
+}
+
+.project__item {
+  overflow: hidden;
+}
+
+.project__item>img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: .4s;
+}
+
+.project__item>img:hover {
+  transform: scale(1.2);
+}
